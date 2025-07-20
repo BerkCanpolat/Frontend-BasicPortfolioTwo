@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Raleway", sans-serif;
+}
+
+:root {
+    --btn-yellow: #FCC028;
+    --text-dark: #000000;
+    --text-yellow: #FCC028;
+    --text-green: #207733;
+    --text-white: #FFFFFF;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* BUTTON */
+.btn-yellow {
+    color: var(--text-white);
+    background-color: var(--btn-yellow);
+    padding: 10px 28px;
+    border-radius: 6px;
+}
+
+.btn-yellow-two {
+    color: var(--text-white);
+    background-color: var(--btn-yellow);
+    padding: 10px 45px;
+    border-radius: 6px;
+}
+
+.btn-transparent {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--text-dark);
+    padding: 8px 18px;
+}
+
+.btn-border {
+    background: transparent;
+    border: 1px solid var(--btn-yellow);
+    color: var(--text-yellow);
+    padding: 8px 18px;
+}
+
+/* FLEX */
+.flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex-evenly {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

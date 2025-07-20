@@ -1,0 +1,126 @@
+.main-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* NAV START */
+.main-header__main-nav {
+    width: 100%;
+}
+
+.main-header__main-nav h3 {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+}
+.main-nav__item-lists li a {
+    padding: 10px 15px;
+    margin: 10px 10px;
+    display: inline-block;
+    color: var(--text-dark);
+
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.header-btn {
+    font-weight: 600;
+}
+/* NAV END */
+
+/* HEADER START */
+.main-header__content {
+    max-width: 100%;
+    /* height: 100%; */
+
+    gap: 10px;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.content-left {
+    position: relative;
+
+    flex: 1;
+}
+.content-left__hello-p {
+    color: var(--text-yellow);
+    font-weight: 600;
+}
+
+.main-header__content h1 {
+    color: var(--text-dark);
+    text-transform: uppercase;
+    font-size: 65px;
+
+    margin: 20px 0;
+}
+
+.main-header__content h3 {
+    color: var(--text-green);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.content-left__info-p {
+    margin-bottom: 25px;
+    color: gray;
+    line-height: 23px;
+}
+
+.content-left__btns {
+    display: flex;
+    align-items: center;
+    margin-bottom: 55px;
+    font-weight: 600;
+}
+
+.content-left__btns .btn-download {
+    display: flex;
+    align-items: center;
+}
+
+.content-left__btns .btn-download img {
+    margin-left: 15px;
+}
+
+.content-left__info {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    border-radius: 10px;
+    padding: 25px;
+
+    position: absolute;
+    left: -10%;
+}
+
+.info-user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    margin-bottom: 20px;
+}
+
+.info-user__text p {
+    color: var(--text-dark);
+}
+
+.info-user__text small {
+    color: gray;
+}
+
+.info-subtitle {
+    line-height: 24px;
+}
+
+.content-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.content-right {
+    flex: 1;
+}
+/* HEADER END */
