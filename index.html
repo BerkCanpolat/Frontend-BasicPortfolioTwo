@@ -14,7 +14,7 @@
   <body>
     <!-- Header Start -->
     <header class="main-header">
-      <nav class="main-header__main-nav flex-between container">
+      <nav class="main-header__main-nav flex-between container" id="navBar">
         <h3>Berk</h3>
         <ul class="main-nav__item-lists flex-center">
           <li>
@@ -34,6 +34,7 @@
           </li>
         </ul>
         <a href="#" class="btn-yellow header-btn">Hire me</a>
+        <i class="fa-solid fa-bars" onclick="openMenu()"></i>
       </nav>
       <div class="main-header__content flex-between container">
         <div class="content-left">
@@ -69,5 +70,13 @@
       </div>
     </header>
     <!-- Header End -->
+
+    <script>
+        var navBar = document.getElementById("navBar")
+
+        function openMenu() {
+            navBar.classList.toggle("hide-menu")
+        }
+    </script>
   </body>
 </html>

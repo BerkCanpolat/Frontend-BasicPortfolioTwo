@@ -1,0 +1,76 @@
+@media (max-width: 720px) {
+  .main-header__main-nav {
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    display: inline-block;
+    padding: 92px 7% 0;
+
+    background-color: gray;
+
+    max-height: 100px;
+    text-align: right;
+    overflow: hidden;
+
+    transition: max-height 1s;
+  }
+
+  .main-header__main-nav h3 {
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+    color: #fff;
+
+    position: fixed;
+    top: 2%;
+    left: 7%;
+    
+}
+
+.main-nav__item-lists li a {
+    padding: 2px 0;
+    margin: 5px 0;
+    color: var(--text-white);
+
+    text-transform: uppercase;
+    font-weight: 400;
+
+    font-size: 11px;
+}
+
+.main-header__main-nav .main-nav__item-lists{
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.main-header__main-nav .fa-solid {
+    display: block;
+    color: #fff;
+
+    position: fixed;
+    top: 2%;
+    right: 7%;
+    font-size: 20px;
+}
+
+.header-btn {
+    font-weight: 400;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.btn-yellow {
+    color: var(--text-white);
+    background-color: var(--btn-yellow);
+    padding: 5px 20px;
+    border-radius: 6px;
+}
+
+.hide-menu {
+    max-height: 300px;
+}
+}

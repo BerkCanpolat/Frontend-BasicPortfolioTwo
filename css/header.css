@@ -7,6 +7,14 @@
 /* NAV START */
 .main-header__main-nav {
     width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    background-color: #fff;
 }
 
 .main-header__main-nav h3 {
@@ -25,6 +33,10 @@
 
 .header-btn {
     font-weight: 600;
+}
+
+.main-header__main-nav .fa-solid {
+    display: none;
 }
 /* NAV END */
 
