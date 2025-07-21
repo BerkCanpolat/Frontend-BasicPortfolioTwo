@@ -79,3 +79,10 @@ Bu projenin temel amacı, **kendi kendine öğrenme ve gelişim** sürecinde uyg
 <img width="1653" height="950" alt="8" src="https://github.com/user-attachments/assets/f810a4b4-8569-4504-b9ef-199082d1f437" />
 
 
+
+
+
+https://github.com/user-attachments/assets/1dba5daf-b53f-49d2-9a1e-76cb24963350
+
+
+
