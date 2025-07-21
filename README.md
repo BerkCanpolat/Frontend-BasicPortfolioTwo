@@ -52,3 +52,12 @@ Bu projenin temel amacı, **kendi kendine öğrenme ve gelişim** sürecinde uyg
 - 🔗 Figma Tasarımı: https://www.figma.com/community/file/1120695093720095972/portfolio-website-for-designers
 - 
 - 🌍 Canlı Demo (Netlify): https://berk-simpleportfolio-two.netlify.app
+
+
+
+<img width="1653" height="950" alt="1" src="https://github.com/user-attachments/assets/ef2a5796-0e7e-4c20-894e-1ea6cc316acb" />
+
+
+<img width="1653" height="950" alt="2" src="https://github.com/user-attachments/assets/383c7bca-3957-4a68-983a-ec1ba2b7e99d" />
+
+
