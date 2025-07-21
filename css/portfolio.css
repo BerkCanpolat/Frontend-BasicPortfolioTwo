@@ -13,3 +13,36 @@
   margin-top: 80px;
   margin-bottom: 10px;
 }
+
+.portfolio-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.portfolio-content .portfolio-content__img{
+    flex: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-content .portfolio-content__img.flex-close-one{
+    justify-content: end;
+}
+.portfolio-content .portfolio-content__img.flex-close-two{
+    justify-content: start;
+}
+.portfolio-content .portfolio-content__img.flex-close-three{
+    justify-content: end;
+}
+.portfolio-content .portfolio-content__img.flex-close-four{
+    justify-content: start;
+}
+
+.portfolio-content__img img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
