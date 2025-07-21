@@ -11,7 +11,7 @@
     text-align: center;
 }
 
-.main-services h1{
+.main-services .main-services__h1 {
     font-weight: 500;
     font-size: 30px;
     margin-bottom: 50px;

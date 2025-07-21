@@ -16,3 +16,9 @@
   margin-bottom: 80px;
   text-align: center;
 }
+
+.client-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
