@@ -1,0 +1,96 @@
+.about-right {
+    flex: 1;
+}
+.about-right__hello-p {
+    color: var(--text-yellow);
+    font-weight: 600;
+}
+
+.about-me h1 {
+    color: var(--text-dark);
+    font-size: 65px;
+
+    margin: 20px 0;
+
+    font-weight: 500;
+}
+
+.about-right__info-p {
+    margin-bottom: 25px;
+    color: gray;
+    line-height: 23px;
+}
+
+.about-right__btns {
+    display: flex;
+    align-items: center;
+    margin-bottom: 55px;
+    font-weight: 600;
+}
+
+.about-right__btns .btn-download {
+    display: flex;
+    align-items: center;
+}
+
+.about-right__btns .btn-download img {
+    margin-left: 15px;
+}
+
+.about-left {
+    flex: 1;
+}
+
+.group-icons {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.group-icons__one,
+.group-icons__two,
+.group-icons__three {
+    display: flex;
+    align-items: center;
+}
+
+.group-icons__one {
+    flex: 25%;
+}
+
+.group-icons__two {
+    flex: 60%;
+}
+
+.group-icons__three {
+    flex: 100%;
+}
+
+.group-icons__one img,
+.group-icons__two img,
+.group-icons__three img {
+    margin-right: 10px;
+}
+
+.group-icons__three {
+    margin: 35px 0 35px;
+}
+
+.group-icons__one,
+.group-icons__two {
+    margin-top: 20px;
+}
+
+.one-title .one-title__top,
+.two-title .two-title__top,
+.three-title .three-title__top {
+    color: var(--text-yellow);
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.one-title .one-title__sub,
+.two-title .two-title__sub,
+.three-title .three-title__sub {
+    font-weight: 500;
+}

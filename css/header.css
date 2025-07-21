@@ -15,6 +15,7 @@
     z-index: 1;
 
     background-color: #fff;
+    padding: 0 13.4%;
 }
 
 .main-header__main-nav h3 {
@@ -101,6 +102,8 @@
 
     position: absolute;
     left: -10%;
+
+    max-width: 450px;
 }
 
 .info-user {
@@ -121,6 +124,7 @@
 
 .info-subtitle {
     line-height: 24px;
+    font-size: 14px;
 }
 
 .content-right img {

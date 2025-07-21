@@ -62,7 +62,8 @@ li {
     background: transparent;
     border: 1px solid var(--btn-yellow);
     color: var(--text-yellow);
-    padding: 8px 18px;
+    padding: 10px 45px;
+    border-radius: 8px;
 }
 
 /* FLEX */
